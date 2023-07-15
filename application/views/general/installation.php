@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <title>Installation | Easy!Appointments</title>
+    <title>Instalación | Easy!Appointments</title>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
@@ -18,25 +18,18 @@
 
 <header>
     <div class="container">
-        <h1 class="page-title">Easy!Appointments Installation</h1>
+        <h1 class="page-title">Instalación de Easy!Appointments de Agendar.com.ar</h1>
     </div>
 </header>
 
 <div class="content container">
     <div class="welcome">
-        <h3>Welcome to the Easy!Appointments installation page.</h3>
+        <h3>Bienvenido.</h3>
         <p>
-            This page will help you set the main settings of your Easy!Appointments installation.
-            You will be able to edit these settings and many more in the backend session of your
-            system. Remember to use the <strong class="text-primary"><?= site_url('backend') ?></strong>
-            url to connect to the backend section of Easy!Appointments.
-
-            If you face any problems during the usage of Easy!Appointments you can always check the
-            <a href="http://easyappointments.org/docs.html">Documentation</a>
-            and <a href="http://groups.google.com/group/easy-appointments">Support Group</a> for getting help. You
-            may also submit new issues on
-            <a href="https://github.com/alextselegidis/easyappointments/issues">GitHub Issues</a>
-            in order to help our development process.
+            Esta página lo guiará para configurar su instalación de Easy!Appointments.
+            Ud. podrá editar luego, estos y otros parámetros, en la interface de
+            administración del sistema.
+            Para ello deberá ingresar en la url <strong class="text-primary"><?= site_url('backend') ?></strong>.
         </p>
     </div>
 
@@ -44,15 +37,15 @@
 
     <div class="row">
         <div class="admin-settings col-12 col-sm-5">
-            <h3>Administrator</h3>
+            <h3>Administrador</h3>
 
             <div class="form-group">
-                <label for="first-name" class="control-label">First Name</label>
+                <label for="first-name" class="control-label">Nombre</label>
                 <input type="text" id="first-name" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="last-name" class="control-label">Last Name</label>
+                <label for="last-name" class="control-label">Apellido</label>
                 <input type="text" id="last-name" class="form-control"/>
             </div>
 
@@ -62,41 +55,41 @@
             </div>
 
             <div class="form-group">
-                <label for="phone-number" class="control-label">Phone Number</label>
+                <label for="phone-number" class="control-label">Teléfono</label>
                 <input type="text" id="phone-number" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="username" class="control-label">Username</label>
+                <label for="username" class="control-label">Usuario</label>
                 <input type="text" id="username" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="password" class="control-label">Password</label>
+                <label for="password" class="control-label">Contraseña</label>
                 <input type="password" id="password" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="retype-password" class="control-label">Retype Password</label>
+                <label for="retype-password" class="control-label">Reingrese contraseña</label>
                 <input type="password" id="retype-password" class="form-control"/>
             </div>
         </div>
 
         <div class="company-settings col-12 col-sm-5">
-            <h3>Company</h3>
+            <h3>Empresa</h3>
 
             <div class="form-group">
-                <label for="company-name" class="control-label">Company Name</label>
+                <label for="company-name" class="control-label">Nombre de la empresa</label>
                 <input type="text" id="company-name" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="company-email" class="control-label">Company Email</label>
+                <label for="company-email" class="control-label">Email de la empresa</label>
                 <input type="text" id="company-email" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="company-link" class="control-label">Company Link</label>
+                <label for="company-link" class="control-label">Enlace al sitio de la empresa</label>
                 <input type="text" id="company-link" class="form-control"/>
             </div>
         </div>
@@ -105,19 +98,19 @@
     <br>
 
     <p>
-        You will be able to set your business logic in the backend settings page
-        after the installation is complete.
+        Podrá configurar la lógica de sus servicios en la página de administración
+        luego de que se complete la instalación.
         <br>
-        Press the following button to complete the installation process.
+        Click en el siguiente botón, para completar la instalación.
     </p>
 
     <br>
 
     <p>
-    <h3>License</h3>
-    Easy!Appointments is licensed under the <span class="badge badge-default">GPL-3.0 license</span>.
-    By using the code of Easy!Appointments in any way <br> you agree with the terms described in the
-    following url:
+    <h3>Licencia</h3>
+    Easy!Appointments está licenciado bajo la <span class="badge badge-default">licencia GPL-3.0</span>.
+    Al utilizar este software de cualquier manera <br> ud da su acuerdo a los términos incluídos en el
+    siguiente link:
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
     </p>
 
@@ -125,12 +118,12 @@
 
     <button type="button" id="install" class="btn btn-success btn-large">
         <i class="icon-white icon-ok mr-2"></i>
-        Install Easy!Appointments
+        Instalar la aplicación
     </button>
 </div>
 
 <footer>
-    Powered by <a href="https://easyappointments.org">Easy!Appointments</a>
+    Powered by <a href="https://easyappointments.org">Easy!Appointments y agendar.com.ar</a>
 </footer>
 
 <script>

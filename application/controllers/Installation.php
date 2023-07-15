@@ -72,7 +72,7 @@ class Installation extends EA_Controller {
             }
 
             // Insert admin
-            $admin['timezone'] = 'UTC';
+            $admin['timezone'] = 'America/Buenos_Aires';
             $admin['settings']['username'] = $admin['username'];
             $admin['settings']['password'] = $admin['password'];
             $admin['settings']['notifications'] = TRUE;
@@ -93,7 +93,7 @@ class Installation extends EA_Controller {
 
             // Service
             $service_id = $this->services_model->add([
-                'name' => 'Service',
+                'name' => 'Servicio',
                 'duration' => '30',
                 'price' => '0',
                 'currency' => '',
@@ -103,16 +103,17 @@ class Installation extends EA_Controller {
 
             // Provider
             $this->providers_model->add([
-                'first_name' => 'Jane',
-                'last_name' => 'Doe',
-                'email' => 'jane@example.org',
-                'phone_number' => '+1 (000) 000-0000',
+                'first_name' => 'Juan',
+                'last_name' => 'Perez',
+                'email' => 'jperez@ejemplo.com.ar',
+                'phone_number' => '+54 (000) 000-0000',
+                'timezone' => 'America/Buenos_Aires',
                 'services' => [
                     $service_id
                 ],
                 'settings' => [
-                    'username' => 'janedoe',
-                    'password' => 'janedoe',
+                    'username' => 'juanperez',
+                    'password' => 'juanperez',
                     'working_plan' => $this->settings_model->get_setting('company_working_plan'),
                     'notifications' => TRUE,
                     'google_sync' => FALSE,
@@ -124,10 +125,11 @@ class Installation extends EA_Controller {
 
             // Customer
             $this->customers_model->add([
-                'first_name' => 'James',
-                'last_name' => 'Doe',
-                'email' => 'james@example.org',
-                'phone_number' => '+1 (000) 000-0000',
+                'first_name' => 'Carlos',
+                'last_name' => 'Espinoza',
+                'email' => 'cespinoza@ejemplo.com.ar',
+                'phone_number' => '+54 (000) 000-0000',
+                'timezone' => 'America/Buenos_Aires',
             ]);
 
             $response = AJAX_SUCCESS;
