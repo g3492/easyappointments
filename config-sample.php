@@ -35,6 +35,23 @@ class Config {
     const DEBUG_MODE    = FALSE;
 
     // ------------------------------------------------------------------------
+    // SPANISH TRANSLATIONS CONSTANTS
+    // ------------------------------------------------------------------------
+
+    const AGN_SERVICE       = 'Servicio';
+    const AGN_SERVICES      = 'Servicios';
+    const AGN_THE_SERVICE   = 'el Servicio';
+    const AGN_THE_SERVICES  = 'los Servicios';
+    const AGN_PROVIDER      = 'Prestador';
+    const AGN_PROVIDERS     = 'Prestadores';
+    const AGN_THE_PROVIDER  = 'el Prestador';
+    const AGN_THE_PROVIDERS = 'los Prestadores';
+    const AGN_CUSTOMER      = 'Cliente';
+    const AGN_CUSTOMERS     = 'Clientes';
+    const AGN_THE_CUSTOMER  = 'el Cliente';
+    const AGN_THE_CUSTOMERS = 'los Clientes';
+
+    // ------------------------------------------------------------------------
     // DATABASE SETTINGS
     // ------------------------------------------------------------------------
 
