@@ -498,7 +498,7 @@
         <!-- ABOUT TAB -->
 
         <div class="tab-pane" id="about-app">
-            <h3>Easy!Appointments</h3>
+            <h3>agendar.com.ar</h3>
 
             <p>
                 <?= lang('about_app_info') ?>
@@ -511,7 +511,8 @@
                     - <?= config('release_label') ?>
                 <?php endif ?>
             </div>
-
+            
+            <?php /*
             <h3><?= lang('support') ?></h3>
             <p>
                 <?= lang('about_app_support') ?>
@@ -538,6 +539,7 @@
                     Twitter
                 </a>
             </p>
+            */ ?>
 
             <h3><?= lang('license') ?></h3>
 

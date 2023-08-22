@@ -399,7 +399,7 @@
                     <span class="footer-powered-by">
                         Powered By
 
-                        <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+                        <a href="https://agendar.com.ar" target="_blank">agendar.com.ar</a>
                     </span>
 
                     <span class="footer-options">

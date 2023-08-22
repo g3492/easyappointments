@@ -2,7 +2,7 @@
 // Spanish
 // Initialize variables from config.php constants
 $agn_service  = Config::AGN_SERVICE;
-$agnservices  = Config::AGN_SERVICES;
+$agn_services  = Config::AGN_SERVICES;
 $agn_the_service  = Config::AGN_THE_SERVICE;
 $agn_the_services  = Config::AGN_THE_SERVICES;
 $agn_provider  = Config::AGN_PROVIDER;
@@ -96,7 +96,7 @@ $lang['manage_appointment_record_hint'] = "Gestionar todos las citas agendadas d
 $lang['select_filter_item_hint'] = "Seleccionar {$agn_provider} o {$agn_service} y ver las citas en el calendario.";
 $lang['enable_appointment_sync_hint'] = "Habilitar la sincronización de la cita con la cuenta de Google Calendar del {$agn_provider}.";
 $lang['manage_customers_hint'] = "Gestionar los {$agn_customer}s registrados y ver su historial de citas agendadas.";
-$lang['manage_services_hint'] = "Gestionar los {$agn_services} y las categorías disponibles del sistema.";
+$lang['manage_services_hint'] = "Gestionar {$agn_the_services} y las categorías disponibles del sistema.";
 $lang['manage_users_hint'] = "Gestionar usuarios internos (administradores, {$agn_provider}s, asistentes).";
 $lang['settings_hint'] = 'Establecer configuración de sistema y usuario.';
 $lang['log_out_hint'] = 'Cerrar sesión del sistema.';
@@ -192,7 +192,7 @@ $lang['edit_breaks_hint'] = "Agrgar los periodos de descanso de trabajo en cada 
 $lang['book_advance_timeout'] = 'Agendar tiempos muertos';
 $lang['book_advance_timeout_hint'] = "Defina el tiempo muerto (en minutos) antes que de {$agn_the_customers} puedan agendar o reorganizar citas con la organización.";
 $lang['timeout_minutes'] = 'Tiempo muerto (en minutos)';
-$lang['about_app_info'] = "Este Servicio es un aplicativo web completamente personalizable que le permitirá a {$agn_the_customers} agendar citas con Usted a través internet. Además, le permitirá sincronizar sus datos con Google Calendar, para poder utilizarlos con otros servicios.";
+$lang['about_app_info'] = "Este Servicio es un aplicativo web personalizable que le permitirá a {$agn_the_customers} agendar citas con Usted a través internet. Además, le permitirá sincronizar sus datos con Google Calendar, para poder utilizarlos con otros servicios.";
 $lang['current_version'] = 'Versión actual';
 $lang['support'] = 'Soporte';
 $lang['about_app_support'] = 'El grupo oficial de respuestas de Google Groups se encuentra a su disposición, en caso de que encuentre algún inconveniente con Este Servicio.  También podrá informar incidentes en la página de Google Code y así ayudar en el proceso de desarrollo de la herramienta.';
@@ -301,7 +301,7 @@ $lang['google_analytics_code_hint'] = 'Agrega tu ID de Google Analytics para ser
 $lang['availabilities_type'] = 'Tipos disponibles';
 $lang['flexible'] = 'Flexible';
 $lang['fixed'] = 'Fijo';
-$lang['attendants_number'] = 'Número de Atenciones';
+$lang['attendants_number'] = "Cantidad de {$agn_customers} (cupo)";
 $lang['reset_working_plan'] = 'Reinicia el plan de trabajo a los valores por defecto.';
 $lang['legal_contents'] = 'Contenidos legales';
 $lang['cookie_notice'] = 'Aviso de Cookies';

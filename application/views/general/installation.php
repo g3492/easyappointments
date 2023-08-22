@@ -108,7 +108,7 @@
 
     <p>
     <h3>Licencia</h3>
-    Easy!Appointments está licenciado bajo la <span class="badge badge-default">licencia GPL-3.0</span>.
+    Este software está licenciado bajo la <span class="badge badge-default">licencia GPL-3.0</span>.
     Al utilizar este software de cualquier manera <br> ud da su acuerdo a los términos incluídos en el
     siguiente link:
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
@@ -123,7 +123,7 @@
 </div>
 
 <footer>
-    Powered by <a href="https://easyappointments.org">Easy!Appointments y agendar.com.ar</a>
+    Powered by <a href="https://agendar.com.ar">agendar.com.ar</a>
 </footer>
 
 <script>

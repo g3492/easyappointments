@@ -48,7 +48,7 @@
     <div class="mt-4">
         <small>
             Powered by
-            <a href="https://easyappointments.org">Easy!Appointments</a>
+            <a href="https://agendar.com.ar">agendar.com.ar</a>
         </small>
     </div>
 </div>

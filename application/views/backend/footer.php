@@ -1,8 +1,8 @@
 <div id="footer">
     <div id="footer-content" class="col-12 col-sm-8">
-        <img class="mr-1" src="<?= base_url('assets/img/logo-16x16.png') ?>" alt="Easy!Appointments Logo">
-        <a href="https://easyappointments.org">
-            Easy!Appointments
+        <img class="mr-1" src="<?= base_url('assets/img/logo-16x16.png') ?>" alt="agendar.com.ar Logo">
+        <a href="https://agendar.com.ar">
+            agendar.com.ar
         </a>
 
         v<?= config('version') ?>
@@ -12,6 +12,7 @@
 
         |
 
+        <?php /*
         <img class="mx-1" src="<?= base_url('assets/img/alextselegidis-logo-16x16.png') ?>" alt="Alex Tselegidis Logo">
         <a href="https://alextselegidis.com">
             Alex Tselegidis
@@ -19,6 +20,7 @@
         &copy; <?= date('Y') ?> - Software Development
 
         |
+        */ ?>
 
         <?= lang('licensed_under') ?>
         <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
