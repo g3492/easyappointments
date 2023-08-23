@@ -31,7 +31,7 @@
             para facilitarle el completado de los campos.<br>
             Estos y otros parámetros, los podrá editar luego en la interface de
             administración.
-            Para ello deberá ingresar al enlace <strong class="text-primary"><?= site_url('backend') ?></strong>.
+            Para ello deberá ingresar al enlace <strong class="text-primary"><?= site_url('backend') ?></strong>
         </p>
     </div>
 
@@ -101,10 +101,10 @@
 
     <p>
     <h3>Licencia</h3>
-    Este software está licenciado bajo la <span class="badge badge-default">licencia GPL-3.0</span>.
-    Al utilizar este software de cualquier manera <br> ud da su acuerdo a los términos incluídos en el
+    Este software está licenciado bajo la licencia GPL-3.0.<br>
+    Al utilizar este software de cualquier manera Ud. da su acuerdo a los términos incluídos en el
     siguiente link:
-    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
+    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Licencia GPL-3.0</a>
     </p>
 
     <br>
