@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <title>Instalación | Easy!Appointments</title>
+    <title>Agendar.com.ar | Instalación</title>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
@@ -18,7 +18,7 @@
 
 <header>
     <div class="container">
-        <h1 class="page-title">Instalación de Easy!Appointments de Agendar.com.ar</h1>
+        <h1 class="page-title">Agendar.com.ar<br>Instalación de su sistema</h1>
     </div>
 </header>
 
@@ -26,17 +26,19 @@
     <div class="welcome">
         <h3>Bienvenido.</h3>
         <p>
-            Esta página lo guiará para configurar su instalación de Easy!Appointments.
-            Ud. podrá editar luego, estos y otros parámetros, en la interface de
-            administración del sistema.
-            Para ello deberá ingresar en la url <strong class="text-primary"><?= site_url('backend') ?></strong>.
+            Esta página lo guiará para configurar la instalación de su sistema. 
+            Si lo está haciendo desde un celular, le recomendamos que lo coloque horizontal, 
+            para facilitarle el completado de los campos.<br>
+            Estos y otros parámetros, los podrá editar luego en la interface de
+            administración.
+            Para ello deberá ingresar al enlace <strong class="text-primary"><?= site_url('backend') ?></strong>.
         </p>
     </div>
 
     <div class="alert d-none"></div>
 
     <div class="row">
-        <div class="admin-settings col-12 col-sm-5">
+        <div class="admin-settings col-12 col-sm-5" >
             <h3>Administrador</h3>
 
             <div class="form-group">
@@ -76,33 +78,24 @@
         </div>
 
         <div class="company-settings col-12 col-sm-5">
-            <h3>Empresa</h3>
+            <h3>Organización/Negocio</h3>
 
             <div class="form-group">
-                <label for="company-name" class="control-label">Nombre de la empresa</label>
+                <label for="company-name" class="control-label">Nombre de la organización</label>
                 <input type="text" id="company-name" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="company-email" class="control-label">Email de la empresa</label>
+                <label for="company-email" class="control-label">Email de la organización</label>
                 <input type="text" id="company-email" class="form-control"/>
             </div>
 
             <div class="form-group">
-                <label for="company-link" class="control-label">Enlace al sitio de la empresa</label>
+                <label for="company-link" class="control-label">Enlace al sitio de la organización</label>
                 <input type="text" id="company-link" class="form-control"/>
             </div>
         </div>
     </div>
-
-    <br>
-
-    <p>
-        Podrá configurar la lógica de sus servicios en la página de administración
-        luego de que se complete la instalación.
-        <br>
-        Click en el siguiente botón, para completar la instalación.
-    </p>
 
     <br>
 
@@ -113,6 +106,17 @@
     siguiente link:
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
     </p>
+
+    <br>
+
+    <p>
+    <h3>Finalizar</h3>
+        Podrá configurar los horarios y otros detalles de sus servicios en la página de administración,
+        luego de que se complete la instalación.
+        <br>
+        Haga click en el botón de más abajo, para finalizar la instalación.
+    </p>
+
 
     <br>
 
